@@ -41,7 +41,9 @@
     font-weight: 700;
     border-radius: 60px;
 }
-
+.fa-solid{
+    font-size: 2.5rem;
+}
 /* Main */
 
 .main{
@@ -70,7 +72,66 @@ margin-top: 200px;
 }
 
 /* Section2 */
-
+.btn1:hover{
+background-color:rgb(184, 34, 79);
+transition: 0.5s;
+}
 h1{
     font-weight: 700;
+}
+.card:hover{
+    box-shadow: 7px 2px 21px -2px rgba(0,0,0,0.78);
+-webkit-box-shadow: 7px 2px 21px -2px rgba(0,0,0,0.78);
+-moz-box-shadow: 7px 2px 21px -2px rgba(0,0,0,0.78);
+transition: 0.5s;
+}
+.img-fluid:hover{
+box-shadow: 7px 2px 21px -2px rgba(0,0,0,0.78);
+-webkit-box-shadow: 7px 2px 21px -2px rgba(0,0,0,0.78);
+-moz-box-shadow: 7px 2px 21px -2px rgba(0,0,0,0.78);
+transition: 0.5s;
+}
+
+.apple{
+    background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(./images/dreamy-young-european-lady-keeps-finger-near-lips-holds-fresh-delicious-apple-thinks-about-cooking-pie_273609-24636.avif) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.apple h1{
+     font-family: "Lobster", sans-serif;
+}
+.news{
+    color: white;
+    background-color: black;
+}
+.btn2{
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+.news input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.news::placeholder{
+    color: white;
+}
+.news p{
+    margin: 0;
+    
+}
+.fa-brands{
+    font-size: 1.8rem;
+    cursor: pointer;
+    padding-right: 30px;
 }
